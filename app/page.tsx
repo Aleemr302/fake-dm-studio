@@ -4,7 +4,8 @@ import { useState, useEffect } from 'react';
 import PlatformSelector from '@/components/PlatformSelector';
 import ChatCanvas from '@/components/ChatCanvas';
 import MessageEditor from '@/components/MessageEditor';
-import ExportPanel from './ExportPanel';
+import ExportPanel from '@/components/ExportPanel';
+import ExportPanel from '@/components/ExportPanel';
 
 const platforms = [
   { id: 'instagram', name: 'Instagram', icon: 'ri-instagram-line', color: 'pink' },
