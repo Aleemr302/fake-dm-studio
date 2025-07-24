@@ -1,9 +1,9 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import PlatformSelector from './PlatformSelector';
-import ChatCanvas from './ChatCanvas';
-import MessageEditor from './MessageEditor';
+import PlatformSelector from '@/components/PlatformSelector';
+import ChatCanvas from '@/components/ChatCanvas';
+import MessageEditor from '@/components/MessageEditor';
 import ExportPanel from './ExportPanel';
 
 const platforms = [
